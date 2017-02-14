@@ -13,7 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "OsLab\\SlimMonolog\\": ""
+            "OsLab\\SlimMonolog\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
