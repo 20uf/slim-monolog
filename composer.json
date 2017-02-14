@@ -1,0 +1,19 @@
+{
+    "name": "oslab/slim-monolog",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "florent",
+            "email": "orions07@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "OsLab\\SlimMonolog\\": ""
+        }
+    }
+}
