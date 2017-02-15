@@ -1,11 +1,11 @@
 <?php
-namespace Oslab\SlimMonolog;
+namespace OsLab\Slim\Monolog;
 
 use Pimple\ServiceProviderInterface;
 use Pimple\Container;
 use Monolog\Logger;
 
-class MonologProvider implements ServiceProviderInterface
+class Provider implements ServiceProviderInterface
 {
     /**
      * Logger settings
@@ -29,11 +29,10 @@ class MonologProvider implements ServiceProviderInterface
 
         $settings = array_merge($this->settings, $container->get('settings')['logger']);
 
-        $container['logger'] = new Logger(
-            $settings['name'],
-            $settings['handlers'],
-            $settings['processors']
+        $container['logger'] =  new Logger(
+                $settings['name'],
+                $settings['handlers'],
+                $settings['processors']
         );
-
     }
 }

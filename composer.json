@@ -1,6 +1,8 @@
 {
     "name": "oslab/slim-monolog",
+    "description": "Provide Logger on Slim application.",
     "type": "library",
+    "keywords": ["slim", "logger", "monolog"],
     "license": "MIT",
     "authors": [
         {
@@ -11,14 +13,24 @@
     "require": {
         "monolog/monolog": "@stable"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "squizlabs/php_codesniffer": "~2.8"
+    },
     "autoload": {
         "psr-4": {
-            "OsLab\\SlimMonolog\\": "src/"
+            "OsLab\\Slim\\": ""
         }
     },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "cs": "./vendor/bin/phpcs --standard=PSR2  -n -p src/"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "0.1-dev"
         }
     }
 }
