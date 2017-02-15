@@ -13,7 +13,6 @@ class Provider implements ServiceProviderInterface
      * @var array
      */
     private $settings = [
-        'level' => Logger::DEBUG,
         'handlers' => [],
         'processors' => [],
     ];
