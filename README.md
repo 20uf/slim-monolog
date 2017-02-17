@@ -58,4 +58,3 @@ phpunit
 ## License
 
 OsLab Slim-Monolog is released under the MIT License. See the bundled LICENSE file for details.
-
