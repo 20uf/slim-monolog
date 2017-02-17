@@ -1,5 +1,13 @@
-OsLab Slim-Monolog
+Slim-Monolog
 ========================
+
+[![Build Status](https://travis-ci.org/OsLab/slim-monolog.svg?branch=master)](https://travis-ci.org/OsLab/slim-monolog)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsLab/slim-monolog/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OsLab/slim-monolog/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/OsLab/slim-monolog/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OsLab/slim-monolog/?branch=master)
+[![Total Downloads](https://poser.pugx.org/OsLab/slim-monolog/downloads)](https://packagist.org/packages/OsLab/slim-monolog)
+[![Latest Stable Version](https://poser.pugx.org/OsLab/slim-monolog/v/stable)](https://packagist.org/packages/OsLab/slim-monolog)
+[![License](https://poser.pugx.org/OsLab/slim-monolog/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/7b0545d2-9b0a-437a-b937-416742ea7ce7/mini.png)](https://insight.sensiolabs.com/projects/7b0545d2-9b0a-437a-b937-416742ea7ce7)
 
 Provide Logger (Monolog) on Slim application.
 
