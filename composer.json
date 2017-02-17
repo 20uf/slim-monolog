@@ -6,8 +6,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "florent",
-            "email": "orions07@gmail.com"
+            "name": "Florent DESPIERRES",
+            "email": "orions07@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Michael COULLERET",
+            "email": "michael@coulleret.pro",
+            "role": "Lead Developer"
         }
     ],
     "require": {
